@@ -11,7 +11,7 @@ def func_recursive(n):
 print("when n =", num, "the number is :", func_recursive(num))
 
 
-def func_interative(n):
+def func_iterative(n):
     num0 = 0
     num1 = 1
     num2 = 2
@@ -25,7 +25,7 @@ def func_interative(n):
         return num0
 
 
-print("when n =", num, "the number is :", func_interative(num))
+print("when n =", num, "the number is :", func_iterative(num))
 
 
 def func(n, a=0, b=1, c=2):
